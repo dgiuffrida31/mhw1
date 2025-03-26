@@ -1,0 +1,247 @@
+body{
+    background-color:#545454;
+    overflow-x: hidden;
+}
+body a{
+    text-decoration: none;
+}
+
+body header{
+    display: flex;
+    top:0;
+    z-index:300;
+}
+
+header{
+    position: fixed;
+    top:0;
+    background-color:black;
+    opacity: 70%;
+    border-radius: 20px;
+    left:0.5%;
+    right: 0.5%;
+    align-items: center;
+    padding: 13px 14px;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    height: auto;
+    width: 9%;
+    align-items: center;
+    left: 0.5%;
+}
+
+.logo img{
+    height: auto;
+    width: 100%;
+}
+
+#navbar{
+    position: relative;
+    gap:15px;
+    left: 10%;
+    right: 10%;
+}
+
+#navbar a{
+    padding: 14px 14px;
+    color: white;
+    text-align: center;
+}
+
+#navbar a:hover{
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+}
+
+#navbar a:active{
+    background-color: orange;
+    color:white;
+}
+
+.search{
+    position: relative;
+    background-color:orange;
+    border-radius: 60px;
+    padding: 10px 10px;
+    right: 11%;
+}
+
+.search:hover{
+    background-color: #A36A00;
+}
+
+.search:active{
+    background-color: #754C00;
+}
+
+
+.account button{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 14px 14px;
+    border: none;
+}  
+
+.account button:hover{
+    background-color: black;
+    color: white;
+    padding: 14px 14px;
+}
+
+.account button:active{
+  background-color:orange;
+  color:white;
+}
+
+.offprinc{
+    position: relative;
+    left: 0;
+    right: 0.5%;
+}
+
+.offprinc img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.offprinc h2{
+    position: absolute;
+    color:white;
+    top:50%;
+    left: 5%;
+}
+
+.offprinc span{
+    background-color: orange;
+    color:white;
+    position: absolute;
+    top:35%;
+    left: 8%;
+    border-radius: 30px;
+    font-size: 60px;
+}
+
+.offprinc span:hover{
+    background-color: #A36A00;
+}
+
+.offprinc p{
+    color:white;
+    position: absolute;
+    top:55%;
+    left:10%;
+    font-size: 40px;
+}
+
+.vendita{
+    color:whitesmoke;
+}
+
+.games{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offerte{
+    position: relative;
+    top:80%;
+    left: 3%;
+}
+
+.offerte img{
+    height: 70%;
+    width: 80%;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sconto{
+    position: absolute;
+    top:60%;
+    left:1%;
+    color:white;
+    background-color: orange;
+    border-radius: 30px;
+    font-size: 36px;
+}
+
+.offerte p{
+    font-size: 28px;
+    position: relative;
+    width: 80%;
+    margin-top: 1%;
+}
+
+.prezzo{
+    font-size: 28px;
+    position: relative;
+    font-weight: bold;
+    font-size: 28px;
+    display: inline;
+    margin-left: 10%;
+}
+
+article{
+    border-top:2px solid white;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sezionerecensione{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recensione{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1px;
+    width: 700px;
+}
+
+.copertinagioco{
+    position: relative;
+    height: 30%;
+    width: 40%;
+}
+
+.utente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar{
+    height: 10%;
+    width: 10%;
+    border-radius: 60px;
+    align-items: center;
+}
+
+.like{
+    height: 5%;
+    width: 5%;
+    background-color:green;
+    border-radius: 60px;
+}
+
+.offerte p:hover{
+    color:gray;
+}
+
+footer{
+    bottom:100%;
+    border-top:2px solid white;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
